@@ -4,4 +4,4 @@ Just a reminder that I won't be updating this theme no matter what, because it's
 
 If you like my theme, I would like you to donate me at https://ko-fi.com/adrea, and I'd really appreciate it.
 
-Dashactyl v0.4 is EOL.
+Don't DM me for help.
