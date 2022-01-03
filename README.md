@@ -4,4 +4,6 @@ Just a reminder that I won't be updating this theme no matter what, because it's
 
 If you like my theme, I would like you to donate me at https://ko-fi.com/adrea, and I'd really appreciate it.
 
+<img width="944" alt="Capture" src="https://user-images.githubusercontent.com/90507395/147951056-52693e61-65f4-4d3c-9204-f068aec8cd92.PNG">
+
 Don't DM me for help.
