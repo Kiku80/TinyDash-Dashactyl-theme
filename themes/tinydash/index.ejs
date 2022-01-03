@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href='/assets/tinydash/favicon.ico' />
+    <link rel="stylesheet" href="/assets/tinydash/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/tinydash/css/owl.carousel.min.css">
+    <script async src="https://arc.io/widget.min.js#<%= settings.api.arcio.widgetid %>"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/tinydash/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/assets/tinydash/css/app-light.css" id="lightTheme">
+			<link rel="stylesheet" href="/assets/tinydash/css/app-dark.css" id="darkTheme" disabled="">
+    <!-- Style -->
+    <link rel="stylesheet" href="/assets/tinydash/css/style.css">
+
+    <title><%= extra.home.title %></title>
+</head>
+  <body class="light ">
+  
+  
+  <div class="d-lg-flex half">
+    <div class="bg order-1 order-md-2" style="background-image: url('/assets/tinydash/images/bg_1.jpg');"></div>
+    <div class="contents order-2 order-md-1">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-7">
+            <div class="mb-4">
+              <h3>Sign In</h3>
+              <p class="mb-4">How are you doing today?</p>
+            </div>
+			  <div class="checkbox mb-3">
+				  <label>
+					  <input type="checkbox" checked="checked" value="remember-me" disabled> Remember Me </label>
+			  </div>
+            <form action="#" method="post">
+
+			        
+					<button onClick="window.location.href='<%= userinfo ? extra.home.buttontext.loggedin.link : extra.home.buttontext.loggedout.link %>';" class="btn btn-lg btn-primary btn-block" type="button">
+					<i class="fab fa-discord"></i> Login with Discord 
+				</button>
+				<pre></pre>
+				<p>
+					By pressing "Login with Discord", you agreed to our <a href="https://www.badsk.com/Terms-and-Conditions.pdf">Terms and Conditions</a>
+				</p>
+              
+           
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+    <script src="/assets/tinydash/js/jquery-3.3.1.min.js"></script>
+    <script src="/assets/tinydash/js/popper.min.js"></script>
+    <script src="/assets/tinydash/js/bootstrap.min.js"></script>
+    <script src="/assets/tinydash/js/main.js"></script>
+  </body>
+</html>
